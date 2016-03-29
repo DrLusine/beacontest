@@ -1,9 +1,9 @@
 {
-  "name": "hubot-tutorial",
+  "name": "presensebot",
   "version": "0.0.0",
   "private": true,
-  "author": "Michi Kono <michi@monsoonco.com>",
-  "description": "A simple helpful robot for your Company",
+  "author": "Chay Choong <chay_choong@mymail.sutd.edu.sg>",
+  "description": "A Slack bot that works with PreSense",
   "dependencies": {
     "hubot": "^2.10.0",
     "hubot-diagnostics": "0.0.1",

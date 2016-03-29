@@ -23,7 +23,7 @@ module.exports = (robot) ->
   #   name = msg.match[1]
   #   robot.brain.set(name, 'busy')
   #   msg.send "#{name} is busy!"
-  #
+
   # robot.respond /set (.*) free/i, (msg) ->
   #   name = msg.match[1]
   #   robot.brain.set(name, 'free')
@@ -36,6 +36,10 @@ module.exports = (robot) ->
     user = data.user
     status = data.status
 
-    robot.brain.set(user, status)
+    if status == "unregister"
+      robot.brain.remove(user)
+    else
+      robot.brain.set(user, status)
+
     res.send "#{JSON.stringify(data)}"
     res.end()
