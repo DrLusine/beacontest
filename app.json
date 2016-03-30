@@ -1,5 +1,6 @@
 {
   "name": "Presense Bot",
+  "logo": "https://presensebot.herokuapp.com/applogo.png",
   "description": "A Slackbot that works with the PreSense apps for iOS and Android",
   "repository": "https://github.com/chaychoong/presensebot.git",
   "keywords": ["presense", "slack", "estimote"],
