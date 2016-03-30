@@ -2,5 +2,11 @@
   "name": "Presense Bot",
   "description": "A Slackbot that works with the PreSense apps for iOS and Android",
   "repository": "https://github.com/chaychoong/presensebot.git",
-  "keywords": ["presense", "slack", "estimote"]
+  "keywords": ["presense", "slack", "estimote"],
+
+  "env": {
+    "HUBOT_SLACK_TOKEN": {
+      "description": "Token for the bot, available from  https://my.slack.com/services/new and under 'DIY Integrations & Customizations' click the 'Add' button."
+    }
+  }
 }
