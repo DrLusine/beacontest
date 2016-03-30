@@ -9,7 +9,7 @@
       "description": "Token for the bot, available from  https://my.slack.com/services/new and under 'DIY Integrations & Customizations' click the 'Add' button."
     },
     "HEROKU_URL": {
-      "description": "HEROKU_URL"
+      "description": "URL required to keep the bot alive. Set it to https://[App Name].herokuapp.com/"
     }
   }
 }
