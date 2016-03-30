@@ -7,6 +7,9 @@
   "env": {
     "HUBOT_SLACK_TOKEN": {
       "description": "Token for the bot, available from  https://my.slack.com/services/new and under 'DIY Integrations & Customizations' click the 'Add' button."
+    },
+    "HEROKU_URL": {
+      "description": "HEROKU_URL"
     }
   }
 }
