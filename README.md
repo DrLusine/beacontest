@@ -37,8 +37,7 @@ To deploy this on your Slack team, you must firstly add a Bot to your Slack and 
 
 ### Running the bot
 
-The URL of your bot's Webhook will be: https://[heroku app name].herokuapp.com/hubot/notify/general
-Use this URL on your Presense app.
+Use this URL on your Presense app: https://[heroku app name].herokuapp.com/hubot/notify/general
 
 The bot listens to only one command: where is [name]. The bot will reply "[name] is available", "[name] is busy" or "[name] is not found", depending on the status of the username.
 
