@@ -1,13 +1,14 @@
-# Presense Bot
+# PreSense Bot
 
-The Presense Bot is a Slack bot that works together with Estimote beacons and the Presense iOS and Android apps.
+The PreSense Bot is a Slack bot that works together with Estimote beacons and the PreSense iOS and Android apps.
 
-iOS: https://github.com/chaychoong/presense
+iOS: https://github.com/chaychoong/PreSense
+
 Android: https://github.com/jang93/PreSense_Android
 
 ### Prerequisite
 
-To deploy this on your Slack team, you must firstly add a Bot to your Slack and set up a Heroku account. You will also need some Estimote beacons! To use the bot most effectively, you will need our iOS or Android app linked above.
+To deploy this on your Slack team, you must first add a Bot to your Slack and set up a Heroku account. You will also need some Estimote beacons! To use the bot most effectively, you will need our iOS or Android app linked above.
 
 ### Installation instructions
 
@@ -37,7 +38,7 @@ To deploy this on your Slack team, you must firstly add a Bot to your Slack and 
 
 ### Running the bot
 
-Use this URL on your Presense app: https://[heroku app name].herokuapp.com/hubot/notify/general
+Use this URL on your PreSense app: https://[heroku app name].herokuapp.com/hubot/notify/general
 
 The bot listens to only one command: where is [name]. The bot will reply "[name] is available", "[name] is busy" or "[name] is not found", depending on the status of the username.
 
